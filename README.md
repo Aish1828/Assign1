@@ -4,6 +4,10 @@
 
 MAISON is a modern luxury fashion e-commerce website built using React. The project focuses on creating an elegant and visually appealing user interface inspired by premium fashion brands. It showcases collections, products, and brand information through a clean and sophisticated design.
 
+## Project Preview
+## Home page
+![image alt](https://github.com/Aish1828/Assign1/blob/b1af49a0b9542b04386fc04d0d48581699de2761/Screenshot%20(62).png)
+
 ## Features
 
 * Modern luxury fashion website design
