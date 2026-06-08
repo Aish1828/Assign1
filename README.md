@@ -7,6 +7,22 @@ MAISON is a modern luxury fashion e-commerce website built using React. The proj
 ## Project Preview
 ## Home page
 ![image alt](https://github.com/Aish1828/Assign1/blob/b1af49a0b9542b04386fc04d0d48581699de2761/Screenshot%20(62).png)
+![image alt](https://github.com/Aish1828/Assign1/blob/f708253297602aeba4949e7b819fc24346e0a4b7/Screenshot%20(63).png)
+<img width="1920" height="1200" alt="Screenshot (64)" src="https://github.com/user-attachments/assets/a04b5252-8883-450c-971a-0e69cd24df0e" />
+
+## Collection page
+<img width="1920" height="1200" alt="Screenshot (65)" src="https://github.com/user-attachments/assets/11f3e9af-b604-40b6-8e74-dd2bdafa8edf" />
+<img width="1920" height="1200" alt="Screenshot (66)" src="https://github.com/user-attachments/assets/03aef8fe-5b94-4b36-b622-4b89afd64009" />
+
+## Shop page
+<img width="1920" height="1200" alt="Screenshot (67)" src="https://github.com/user-attachments/assets/a3d2050d-7ad3-488e-9e83-273f4ee84d13" />
+<img width="1920" height="1200" alt="Screenshot (68)" src="https://github.com/user-attachments/assets/6ad9bd43-ba64-4e13-95a1-9cfae6c2f9d9" />
+<img width="1920" height="1200" alt="Screenshot (69)" src="https://github.com/user-attachments/assets/4030e895-0479-4f2c-988c-d6ea730f8a88" />
+
+## About page
+<img width="1920" height="1200" alt="Screenshot (70)" src="https://github.com/user-attachments/assets/d938023a-4131-4ceb-a26b-13d8db097793" />
+<img width="1920" height="1200" alt="Screenshot (71)" src="https://github.com/user-attachments/assets/67cbe5ed-f627-4c26-a0b4-ef9db782b40f" />
+<img width="1920" height="1200" alt="Screenshot (72)" src="https://github.com/user-attachments/assets/b1537c3b-82e4-44da-9066-175e2dea600a" />
 
 ## Features
 
@@ -102,5 +118,5 @@ This project demonstrates:
 * Professional e-commerce website layout
 
 ## Author
-
-Created as a React E-Commerce Website Project using React and Vite.
+Aishwarya Nagarkar - React E-Commerce Website Assignment.
+* Developed using React, React Router, Vite, JavaScript, HTML, and CSS.
