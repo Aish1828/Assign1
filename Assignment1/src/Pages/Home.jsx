@@ -1,10 +1,10 @@
 import React from 'react';
-import {Hero} from '../components/Hero';
-import {BrandStrip} from '../components/BrandStrip';
-import {Categories} from '../components/Categories';
-import {FeaturedProducts} from '../components/FeaturedProducts';
-import {EditorialBanner} from '../components/EditorialBanner';
-import {Testimonials} from '../components/Testimonials';
+import {Hero} from '../Components/Hero';
+import {BrandStrip} from '../Components/BrandStrip';
+import {Categories} from '../Components/Categories';
+import {FeaturedProducts} from '../Components/Featuredproducts';
+import {EditorialBanner} from '../Components/Editorialbanner';
+import {Testimonials} from '../Components/Testimonials';
 
 export default function Home() {
   return (
@@ -12,8 +12,8 @@ export default function Home() {
       <Hero />
       <BrandStrip />
       <Categories />
-      <FeaturedProducts />
-      <EditorialBanner />
+      <Featuredproducts />
+      <Editorialbanner />
       <Testimonials />
     </main>
   );
