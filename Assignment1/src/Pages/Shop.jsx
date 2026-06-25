@@ -58,7 +58,7 @@ export function Shop() {
         <div style={grid}>
           {filtered.map((product, i) => (
             <div key={product.id} style={{ animation: 'fadeUp 0.5s ease both', animationDelay: `${i * 0.06}s` }}>
-              <ProductCard product={product} />
+              <Productcard product={product} />
             </div>
           ))}
         </div>
