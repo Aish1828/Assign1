@@ -132,7 +132,13 @@ export default function Navbar() {
           <BagIcon />
           <span style={styles.badge} />
         </button>
+        <Link to="/add-product" className="add-product-btn" style={{ textDecoration: 'none', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
+          + Add Product
+        </Link>
       </div>
     </nav>
   );
 }
+
+
+

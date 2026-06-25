@@ -2,52 +2,31 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import './index.css';
 
-// Components
-import Navbar from './components/Navbar';
-import {Hero} from './components/Hero';
-import {BrandStrip} from './components/BrandStrip';
-import {Categories} from './components/Categories';
-import {FeaturedProducts} from './components/FeaturedProducts';
-import {ProductCard} from './components/ProductCard';
-import {EditorialBanner} from './components/EditorialBanner';
-import {Testimonials} from './components/Testimonials';
-import {Footer} from './components/Footer';
+import Navbar from './Components/Navbar';
+import { Footer } from './Components/Footer';
 
-// Pages
-import Home from './pages/Home';
-import {Shop} from './pages/Shop';
-import {Collections} from './pages/Collections';
-import {About} from './pages/About';
+import Home from './Pages/Home';
+import { Shop } from './Pages/Shop';
+import { Collections } from './Pages/Collections';
+import { About } from './Pages/About';
+import { AddProduct } from './Pages/AddProduct';
+import Products from './Pages/Products';
 
 export default function App() {
   return (
-      <>
-        {/* Navbar is present on all pages */}
-        <Navbar />
+    <>
+      <Navbar />
 
-        {/* Routes */}
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/shop" element={<Shop />} />
-          <Route path="/collections" element={<Collections />} />
-          <Route path="/about" element={<About />} />
-        </Routes>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/shop" element={<Shop />} />
+        <Route path="/collections" element={<Collections />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/add-product" element={<AddProduct />} />
+        <Route path="/products" element={<Products />} />
+      </Routes>
 
-        {/* Footer is present on all pages */}
-        <Footer />
-      </>
+      <Footer />
+    </>
   );
 }
-
-// Exporting components for documentation purposes
-export {
-  Navbar,
-  Hero,
-  BrandStrip,
-  Categories,
-  FeaturedProducts,
-  ProductCard,
-  EditorialBanner,
-  Testimonials,
-  Footer,
-};
