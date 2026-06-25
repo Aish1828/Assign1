@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ProductCard } from './ProductCard';
+import { Productcard } from './Productcard';
 
 const tabs = ['All', 'New In', 'Bestsellers', 'Sale'];
 
