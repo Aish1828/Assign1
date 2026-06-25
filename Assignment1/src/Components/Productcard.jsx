@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-export function ProductCard({ product, featured = false }) {
+export function Productcard({ product, featured = false }) {
   const [hovered, setHovered] = useState(false);
   const [wishlisted, setWishlisted] = useState(false);
 
