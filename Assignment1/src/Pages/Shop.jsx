@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ProductCard } from '../components/ProductCard';
+import { Productcard } from '../components/Productcard';
 
 const allProducts = [
   { id: 1, name: 'Fluid Draped Midi Dress', category: 'Dresses', price: '485', badge: 'New', colors: ['#1a1a18', '#8B7355', '#C4A882'], image: 'https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=600&q=80' },
