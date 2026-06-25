@@ -76,7 +76,7 @@ export function FeaturedProducts() {
         <div style={gridStyle}>
           {products.map((product, i) => (
             <div key={product.id} style={{ animationDelay: `${i * 0.08}s`, animation: 'fadeUp 0.6s ease both' }}>
-              <ProductCard product={product} />
+              <Productcard product={product} />
             </div>
           ))}
         </div>
