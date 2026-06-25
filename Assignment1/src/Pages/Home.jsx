@@ -12,7 +12,7 @@ export default function Home() {
       <Hero />
       <BrandStrip />
       <Categories />
-      <Featuredproducts />
+      <FeaturedProducts />
       <Editorialbanner />
       <Testimonials />
     </main>
