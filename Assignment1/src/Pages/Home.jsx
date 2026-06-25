@@ -13,7 +13,7 @@ export default function Home() {
       <BrandStrip />
       <Categories />
       <FeaturedProducts />
-      <Editorialbanner />
+      <EditorialBanner />
       <Testimonials />
     </main>
   );
